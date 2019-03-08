@@ -10,11 +10,8 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
   var sum_return =[];
-  console.log (a,b);
   sum_return[0] = a+b;
-  console.log (sum_return[0]);
   sum_return[1] = 'The sum of '+ a + ' and ' + b +' is ' + sum_return[0] +'.';
-  console.log (sum_return[1]);
   return sum_return;
 }
 
