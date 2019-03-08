@@ -9,11 +9,17 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-
+  var sum_return =[];
+  console.log (a,b);
+  sum_return[0] = a+b;
+  console.log (sum_return[0]);
+  sum_return[1] = 'The sum of '+ a + ' and ' + b +' is ' + sum_return[0] +'.';
+  console.log (sum_return[1]);
+  return sum_return;
 }
 
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+console.log(testSum(4, 7));
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
